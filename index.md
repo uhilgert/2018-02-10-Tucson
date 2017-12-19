@@ -343,11 +343,6 @@ SYLLABUS
 	  </ul>
   </div>
 
-  
-	
-	<!-- https://swcarpentry.github.io/git-novice/ -->
-	
-<div class="row">
   <div class="col-md-6">
 	  <h3 id="syllabus-git">Manage and share programs/data with git/GitHub</h3>
     <ul>
@@ -391,9 +386,9 @@ SYLLABUS
 		  <li><a href="https://plot.ly/python/" target="_blank">Interactive plotting with Plotly (available for R and for Python)</a></li>
 
 
-</ul>
+    </ul>
   </div>
-  </div>
+</div>
   
 <p>Syllabus subject to change if necessary.</p>
 
