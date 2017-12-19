@@ -48,7 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p><h4><center><strong>
 	<br>
-	The workshop is taking place during the annual<br><a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a>,<br> the largest of its kind in the world.<br>
+	The workshop is taking place during the annual<br><a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a>,<br> the largest of its kind in the world.<br><br>
 Come for the gems, minerals & fossils, and stay to learn how to mine data!
 </strong></center></h4></p>
 	
