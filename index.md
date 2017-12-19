@@ -362,7 +362,7 @@ SYLLABUS
   </div>
 
 <div class="col-md-6">
-    <h3 id="syllabus-python">Analyse Scientific Data With Python</h3>
+    <h3 id="syllabus-python">Analyse scientific data with Python</h3>
     <ul>
       <li>Use libraries</li>
       <li>Work with arrays</li>
