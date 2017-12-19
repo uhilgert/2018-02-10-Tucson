@@ -299,6 +299,8 @@ SYLLABUS
   please preview your site before committing, and make sure to run
   'tools/check' as well.
 {% endcomment %}
+
+<!--
 <h2 id="syllabus">Syllabus</h2>
 
 {% if page.carpentry == "swc" %}
@@ -307,7 +309,7 @@ SYLLABUS
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
-{% endif %}
+{% endif %} -->
 
 <hr/>
 
@@ -361,7 +363,6 @@ SYLLABUS
 		  <li><a href="https://git-annex.branchable.com/" target="_blank">Git for Archiving Data</a></li>
 	  </ul>
   </div>
-</div>
 
 <div class="col-md-6">
     <h3 id="syllabus-python"><a href="{{site.swc_pages}}/python-novice-gapminder/reference/">Analyse Scientific Data With Python</a></h3>
@@ -385,6 +386,7 @@ SYLLABUS
 
 
 </ul>
+  </div>
   </div>
   
 <p>Syllabus subject to change if necessary.</p>
