@@ -300,10 +300,13 @@ SYLLABUS
   'tools/check' as well.
 {% endcomment %}
 
+<hr/>
+<hr/>
+
 <!--
 <h2 id="syllabus">Syllabus</h2>
 -->
-
+{% comment %}
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
@@ -311,8 +314,9 @@ SYLLABUS
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
 {% endif %}
+{% endcomment %}
 
-
+<hr/>
 <hr/>
 
 <h2 id="syllabus">Syllabus/Learning Objectives</h2>
