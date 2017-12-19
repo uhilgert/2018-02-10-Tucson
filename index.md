@@ -739,6 +739,7 @@ SYLLABUS
 {% endcomment %}
 </div> {% comment %} End of 'Python' section. {% endcomment %}
 
+<!--
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
@@ -882,6 +883,7 @@ SYLLABUS
     </div>
   </div>
 </div> {% comment %} End of 'OpenRefine' section. {% endcomment %}
+-->
 
 {% comment %}
 <div id="vm">
