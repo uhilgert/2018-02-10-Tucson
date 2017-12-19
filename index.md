@@ -48,7 +48,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 
 <p><h4><center><strong>
 	<br>
-	The workshop is taking place during the annual <a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a> in Tucson, AZ, the largest of its kind in the world.<br>
+	The workshop is taking place during the annual<br><a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a>,<br> the largest of its kind in the world.<br>
 Come for the gems, minerals & fossils, and stay to learn how to mine data!
 </strong></center></h4></p>
 	
@@ -98,10 +98,10 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 <p id="where">
   <strong>Where:</strong>
   {{page.address}}.
-  Get directions with
+ <!-- Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>. -->
 </p>
 {% endif %}
 
@@ -154,13 +154,16 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
+  Links to workshop materials are being provided below. If we can provide additional resources to help making learning easier for you (e.g. large-font hand-outs, sign-language interpreters, lactation facilities) please get in touch (using contact details below) and we will attempt to provide them.
+</p>
+<!-- <p>
   Materials will be provided in advance of the workshop and
   large-print handouts are available if needed by notifying the
   organizers in advance.  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
   attempt to provide them.
-</p>
+</p> -->
 
 {% comment %}
   CONTACT EMAIL ADDRESS
@@ -189,6 +192,21 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 
 <hr/>
 
+<h2 id="surveys">Required Surveys</h2>
+{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
+<p><em>Surveys</em></p>
+{% if page.carpentry == "swc" %} 
+<p>Please be sure to complete these surveys before and after the workshop, respectively.</p>
+<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+{% elsif page.carpentry == "dc" %}
+  <p>Please be sure to complete these surveys before and after the workshop, respectively.</p>
+<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
+<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+{% elsif page.carpentry == "lc" %}
+<p>Ask your instructor about pre- and post-workshop Survey details.</p>
+{% endif %}
+
 {% comment %}
   SCHEDULE
 
@@ -198,20 +216,7 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
-{% comment %} DO NOT EDIT SURVEY LINKS {% endcomment %}
-<p><em>Surveys</em></p>
-{% if page.carpentry == "swc" %} 
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "dc" %}
-  <p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.dc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.dc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% elsif page.carpentry == "lc" %}
-<p>Ask your instructor about pre- and post-workshop Survey details.</p>
-{% endif %}
-
+<hr/>
 
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
