@@ -51,10 +51,8 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 	The workshop is taking place during the annual<br><a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a>,<br> the largest of its kind in the world.<br><br>
 Come for the gems, minerals & fossils, and stay to learn how to mine data!
 </strong></center></h4></p>
-	
-<p>
-  <strong><center>Apply for the workshop at EVENTBRITE URL goes here <!-- <a href="https://cyverse-sdc.eventbrite.com/" target='blank'>https://cyverse-sdc.eventbrite.com/</a> -->.</center></home>
-</p>
+<br>	
+<p><h4><center><strong>Apply for the workshop at EVENTBRITE URL goes here <!-- <a href="https://cyverse-sdc.eventbrite.com/" target='blank'>https://cyverse-sdc.eventbrite.com/</a> -->.</strong></center></h4></p>
 
 <h2 id="general">General Information</h2>
 
