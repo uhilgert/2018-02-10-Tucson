@@ -226,36 +226,6 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
   {% include lc/schedule.html %}
 {% endif %} -->
 <p>
-	***************************TEST*********************************
-</p>
-<div class="row">
-  <div class="col-md-6">
-    <h3>Saturday August 26</h3>
-    <table class="table table-striped">
-       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks with the Unix shell</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/" target="_blank">Scientific Analyses with R</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
-      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
-      <tr> <td>17:00</td>  <td>End of Day</td> </tr>
-    </table>
-  </div>
-  <div class="col-md-6">
-    <h3>Sunday August 27</h3>
-    <table class="table table-striped">
-      <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/r-novice-inflammation/" target="_blank">Scientific Analyses with R</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a>, cont.</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/r-novice-gapminder/" target="_blank">Scientific Analyses with R</a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
-      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>End of Day</td> </tr>
-    </table>
-  </div>
-</div>
-<p>
-	***************************END TEST*********************************
-</p>
-
 
 <h2 id="schedule">Schedule</h2>
 
