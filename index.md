@@ -303,14 +303,15 @@ SYLLABUS
 <!--
 <h2 id="syllabus">Syllabus</h2>
 -->
-<!--
+
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/syllabus.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/syllabus.html %}
-{% endif %} -->
+{% endif %}
+
 
 <hr/>
 
