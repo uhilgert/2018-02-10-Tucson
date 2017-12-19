@@ -53,7 +53,7 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 </strong></center></h4></p>
 	
 <p>
-  <strong>Application Form:</strong> Apply for the workshop at <a href="https://cyverse-sdc.eventbrite.com/" target='blank'>https://cyverse-sdc.eventbrite.com/</a>.
+  <strong><center>Apply for the workshop at <a href="https://cyverse-sdc.eventbrite.com/" target='blank'>https://cyverse-sdc.eventbrite.com/</a>.</center></home>
 </p>
 
 <h2 id="general">General Information</h2>
