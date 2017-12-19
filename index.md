@@ -438,37 +438,30 @@ SYLLABUS
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <ol>
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
-        <li>Run the installer and follow the steps bellow:
+        {% comment %}  "Do you want to run this file?" {% endcomment %}
+      <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
-            {% comment %} Information {% endcomment %}
+            {% comment %}  "Information" {% endcomment %}
             <li>Click on "Next".</li>
-            {% comment %} Select Components {% endcomment %}
+            {% comment %}  "Select Destination Location" {% endcomment %}
             <li>Click on "Next".</li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
-            <li>
-              <strong>
-                Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
-              </strong>
-                If you forgot to do this programs that you need for the workshop will not work properly.
-                If this happens rerun the installer and select the appropriate option.
-            </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
+            {% comment %}  "Select Components" {% endcomment %}
             <li>Click on "Next".</li>
+	    {% comment %}  "Select Start Menu Folder" {% endcomment %}
+            <li>Click on "Next".</li>
+	    {% comment %}  "Choosing Default Editor" {% endcomment %}
+	   <li>Select "Use the Nano editor by default"</li>
+            {% comment %} "Adjusting your PATH environment" {% endcomment %}
+	   <li>Ensure that "<strong>Use Git from the Windows Command Prompt</strong>" is selected and click on "Next".
+                (If you forget to do this gitbash will not work properly, requiring you to <strong>remove the GitBash 		     installation, re-run the installer</strong> and to select the "Use Git from the Windows Command Prompt" option.)</li>
+		  {% comment %} Choosing the SSH executable {% endcomment %}
+            <li>Ensure that "<strong>Use the OpenSSL Library</strong>" is selected and click on "Next".</li>
             {% comment %} Configuring the line ending conversions {% endcomment %}
-            <li>
-              <strong>
-                Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
-              </strong>
-            </li>
+            <li>Ensure that "<strong>Checkout Windows-style, commit Unix-style line endings</strong>" is selected and click on "Next".</li>
             {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
-            <li>
-              <strong>
-                Keep "Use Windows' default console window" selected and click on "Next".
-              </strong>
-            </li>
+	    <li>Ensure that "<strong>Use Windows' default console window</strong>" is selected and click on "Next".</li>
             {% comment %} Configuring experimental performance tweaks {% endcomment %}
-            <li>Click on "Install".</li>
+            <li>Ensure that "<strong>Enable file system caching</strong>" and "<strong>Enable Git Credential Manager</strong>"                              are selected and click on "Install".</li>
             {% comment %} Installing {% endcomment %}
             {% comment %} Completing the Git Setup Wizard {% endcomment %}
             <li>Click on "Finish".</li>
