@@ -302,7 +302,8 @@ SYLLABUS
 
 <!--
 <h2 id="syllabus">Syllabus</h2>
-
+-->
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
 {% elsif page.carpentry == "dc" %}
