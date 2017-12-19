@@ -232,15 +232,15 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
   <div class="col-md-6">
     <h3>Saturday February 10</h3>
     <table class="table table-striped">
-       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Unix shell</a></td> </tr>
+      <tr> <td>08:30</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Unix shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
-       <tr> <td>10:45</td>  <td> <a href="http://swcarpentry.github.io/git-novice/" target="_blank">Manage data with git/GitHub</a></td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>	    
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a><td> </tr>
-      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
-	    <tr> <td>15:00</td> Share data and programs with <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
-      <tr> <td>17:00</td>  <td>End of Day</td> </tr>
+      <tr> <td>10:45</td> <td> <a href="http://swcarpentry.github.io/git-novice/" target="_blank">Manage data with git/GitHub</a></td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>12:00</td> <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a><td> </tr>
+      <tr> <td>14:45</td> <td>Coffee</td> </tr>
+      <tr> <td>15:00</td> <td>Share data and programs with <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
+      <tr> <td>17:00</td> <td>End of Day</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
@@ -249,7 +249,7 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td>, cont. </tr>
+      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a>, cont.</td> </tr>
       <tr> <td>14:45</td>  <td>Coffee</td> </tr>
       <tr> <td>17:00</td>  <td>End of Day</td> </tr>
     </table>
