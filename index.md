@@ -208,7 +208,7 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 {% endif %}
 
 {% comment %}
-  SCHEDULE
+  SCHEDULE -- The original Schedule template is utterly messed up in that it (1) includes the link to the surveys which should be getting thier own header, and (2) does not allow to change the schedule template/tables. We are therefore using a table made from scratch and will not display the schedule included with the template.
 
   Show the workshop's schedule.  Edit the items and times in the table
   to match your plans.  You may also want to change 'Day 1' and 'Day
@@ -217,14 +217,46 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
 <h2 id="schedule">Schedule</h2>
 
 <hr/>
-
+<!--
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
   {% include dc/schedule.html %}
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
-{% endif %}
+{% endif %} -->
+
+<h2 id="schedule">Schedule</h2>
+
+<div class="row">
+  <div class="col-md-6">
+    <h3>Saturday February 10</h3>
+    <table class="table table-striped">
+       <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Unix shell</a></td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+       <tr> <td>10:45</td>  <td> <a href="http://swcarpentry.github.io/git-novice/" target="_blank">Manage data with git/GitHub</a></td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>	    
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a><td> </tr>
+      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
+	    <tr> <td>15:00</td> Share data and programs with <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
+      <tr> <td>17:00</td>  <td>End of Day</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Sunday February 11</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
+      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/python-novice-gapminder/" target="_blank">Analyze scientific data with Python </a> and <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td>, cont. </tr>
+      <tr> <td>14:45</td>  <td>Coffee</td> </tr>
+      <tr> <td>17:00</td>  <td>End of Day</td> </tr>
+    </table>
+  </div>
+</div>
+
+<p>Schedule subject to change if necessary.</p>
 
 {% comment %}
   Collaborative Notes
