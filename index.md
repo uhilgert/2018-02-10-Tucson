@@ -268,7 +268,7 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
       <tr> <td>10:45</td> <td> <a href="http://swcarpentry.github.io/git-novice/" target="_blank">Manage data with git/GitHub</a></td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a><td> </tr>
+      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a></td> </tr>
       <tr> <td>14:45</td> <td>Coffee</td> </tr>
       <tr> <td>15:00</td> <td>Share data and programs with <a href="http://swcarpentry.github.io/git-novice/" target="_blank">git/GitHub</a></td> </tr>
       <tr> <td>17:00</td> <td>End of Day</td> </tr>
