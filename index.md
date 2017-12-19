@@ -300,9 +300,6 @@ SYLLABUS
   'tools/check' as well.
 {% endcomment %}
 
-<hr/>
-<hr/>
-
 <!--
 <h2 id="syllabus">Syllabus</h2>
 -->
@@ -316,7 +313,6 @@ SYLLABUS
 {% endif %}
 {% endcomment %}
 
-<hr/>
 <hr/>
 
 <h2 id="syllabus">Syllabus/Learning Objectives</h2>
@@ -366,7 +362,7 @@ SYLLABUS
   </div>
 
 <div class="col-md-6">
-    <h3 id="syllabus-python"><a href="{{site.swc_pages}}/python-novice-gapminder/reference/">Analyse Scientific Data With Python</a></h3>
+    <h3 id="syllabus-python">Analyse Scientific Data With Python</h3>
     <ul>
       <li>Use libraries</li>
       <li>Work with arrays</li>
