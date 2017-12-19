@@ -450,7 +450,7 @@ SYLLABUS
 	    {% comment %}  "Select Start Menu Folder" {% endcomment %}
             <li>Click on "Next".</li>
 	    {% comment %}  "Choosing Default Editor" {% endcomment %}
-	   <li>Select "Use the Nano editor by default"</li>
+	   <li>Select "<strong>Use the Nano editor by default</strong>"</li>
             {% comment %} "Adjusting your PATH environment" {% endcomment %}
 	   <li>Ensure that "<strong>Use Git from the Windows Command Prompt</strong>" is selected and click on "Next".
                 (If you forget to do this gitbash will not work properly, requiring you to <strong>remove the GitBash 		     installation, re-run the installer</strong> and to select the "Use Git from the Windows Command Prompt" option.)</li>
