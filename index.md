@@ -50,6 +50,15 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 If you are running a self-organized workshop or have not put in a workshop request yet, please also fill in 
 <a href="{{site.amy_site}}/submit">this workshop request form</a> to let us know about your workshop
 and our administrator may contact you if we need any extra information.</h4>
+<p>
+<br><center><strong>The workshop is taking place during the annual
+  <a href="https://www.visittucson.org/visit/events/featured-tucson/tucson-gem-mineral-fossil-showcase/" target="blank">Tucson Gem, Mineral & Fossil Showcase</a> in Tucson, AZ, the largest of its kind in the world.<br>
+<h3><strong>Come for the gems, minerals & fossils, and stay to learn how to mine data!</h3></strong></center><br>	
+</p>
+	
+<p>
+  <strong>Application Form:</strong> Apply for the workshop at <a href="https://cyverse-sdc.eventbrite.com/" target='blank'>https://cyverse-sdc.eventbrite.com/</a>.
+</p>
 
 <h2 id="general">General Information</h2>
 
