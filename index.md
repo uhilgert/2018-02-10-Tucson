@@ -588,23 +588,7 @@ If this does not help please get in touch (using contact details above) and we w
   <h3>Text Editor</h3>
 
   <p>
-    When you're writing code, it's nice to have a text editor that is
-    optimized for writing code, with features like automatic
-    color-coding of key words.  The default text editor on macOS and
-    Linux is usually set to Vim, which is not famous for being
-    intuitive.  if you accidentally find yourself stuck in it, try
-    typing the escape key, followed by <code>:q!</code> (colon, lower-case 'q',
-    exclamation mark), then hitting Return to return to the shell.
-  </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="editor-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
-      <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        To install it,
-        download the <a href="{{site.swc_installer}}">
+        We will use the basic editor '<strong>nano</strong>' in the workshop; if your computer doesn't have it, install it by downloading/saving the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -612,18 +596,13 @@ If this does not help please get in touch (using contact details above) and we w
           {% elsif page.carpentry == "lc" %}
           Library Carpentry
           {% endif %}
-          Windows installer
+          Windows installer.
 	</a>
-        and double click on the file to run it.
-        <strong>This installer requires an active internet connection.</strong>
+        Double-click the installer file to run it. (<strong>CAVEAT: This installer requires an active internet connection.)</strong>
       </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
-        <strong>Be aware that you must
-          add its installation directory to your system path.</strong>
-        Please ask your instructor to help you do this.
+	    <p>Please contact the workshop organizer listed above if you experience difficulties installing the 'nano' editor.</p>
+	    <p>
+If you prefer to use other editors (such as 'Notepad++' or 'Sublime Text') add their installation directories to your system path to ensure that they run correctly in Git Bash. <strong>If you are not sure how to do this, please install and use 'nano' for the duration of the workshop.</strong>
       </p>
     </div>
     <div class="col-md-4">
