@@ -233,11 +233,11 @@ Come for the gems, minerals & fossils, and stay to learn how to mine data!
   <div class="col-md-6">
     <h3>Saturday February 10</h3>
     <table class="table table-striped">
-      <tr> <td>08:30</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Unix shell</a></td> </tr>
+      <tr> <td>08:30</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Access and navigate the command line / Bash Shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Coffee Break</td> </tr>
       <tr> <td>10:45</td> <td> <a href="http://swcarpentry.github.io/git-novice/" target="_blank">Manage data with git/GitHub</a></td> </tr>
       <tr> <td>12:00</td> <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks writing shell scripts</a></td> </tr>
+      <tr> <td>13:00</td> <td><a href="http://swcarpentry.github.io/shell-novice/" target="_blank">Automate tasks with shell scripts</a></td> </tr>
       <tr> <td>14:45</td> <td>Coffee Break</td> </tr>
       <tr> <td>15:00</td> <td><a href="http://swcarpentry.github.io/git-novice/" target="_blank">Share data and scripts/programs with git/GitHub</a></td> </tr>
       <tr> <td>17:00</td> <td>End of Day</td> </tr>
@@ -319,7 +319,7 @@ SYLLABUS
 
 <div class="row">
   <div class="col-md-6">
-	  <h3 id="syllabus-shell">Take control with the Unix Shell/Command Line</h3>
+	  <h3 id="syllabus-shell">Take control with the Bash Shell/Command Line/Shell/Unix</h3>
     <ul>
 	    <li>Work <em>in</em> vs. work <em>below</em> the GUI</li>
 	    <li>Navigate the shell</li>
@@ -446,11 +446,10 @@ If even this does not help, please get in touch (using contact details above) an
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell</h3>
+  <h3>The Bash Shell (a.k.a. Command Line/Shell/Unix/Linux/etc.)</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to do simple
-    tasks more quickly.
+    Bash is a commonly-used shell that gives you the power to quickly do simple tasks on your computer. Bash stands for 'Bournce Again Shell'; if you are interested in the history of the term and the underlying technological development, please search the Web for 'Bash Shell'.
   </p>
 
   <div class="row">
