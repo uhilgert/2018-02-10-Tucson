@@ -405,6 +405,7 @@ SYLLABUS
 
 <h2 id="setup">Setup</h2>
 
+<!--
 <p>
   To participate in a
   {% if page.carpentry == "swc" %}
@@ -422,6 +423,26 @@ SYLLABUS
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+</p>
+-->
+
+<p>
+  To participate in a
+  {% if page.carpentry == "swc" %}
+  Software Carpentry
+  {% elsif page.carpentry == "dc" %}
+  Data Carpentry
+  {% elsif page.carpentry == "lc" %}
+  Library Carpentry
+  {% endif %}
+  workshop,
+  you will need access to the software described below. Unless you prepare your laptop as described below you will be unable to follow along.
+  In addition, you will need an up-to-date web browser, we recommend Firefox, Chrome or Safari as Internet Explorer can be buggy.
+</p>
+<p>
+  Should you encounter issues while installing the software below, please look for a solution in our
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+If this does not help please get in touch (using contact details above) and we will attempt to provide a solution.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
