@@ -442,7 +442,7 @@ SYLLABUS
 <p>
   Should you encounter issues while installing the software below, please look for a solution in our
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
-If this does not help please get in touch (using contact details above) and we will attempt to provide a solution.
+If even this does not help, please get in touch (using contact details above) and we will attempt to provide a solution.
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
@@ -586,9 +586,16 @@ If this does not help please get in touch (using contact details above) and we w
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
   <h3>Text Editor</h3>
+<p>
+Writing code is much easier with respectively optimized text editors that include features such as automatic color-coding of key words and syntax-highlighting. We will use the basic editor '<strong>nano</strong>' in the workshop; it comes pre-installed with the git-bash download above for Windows, Mac and Linux.
+</p>
 
-  <p>
-        We will use the basic editor '<strong>nano</strong>' in the workshop; if your computer doesn't have it, install it by downloading/saving the <a href="{{site.swc_installer}}">
+<div class="row">
+    <div class="col-md-4">
+      <h4 id="editor-windows">Windows</h4>
+<p>
+	Click the Start button and type 'nano' into the search window. If your computer is unable to locate nano, 
+      install it by downloading/saving the <a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -601,35 +608,17 @@ If this does not help please get in touch (using contact details above) and we w
         Double-click the installer file to run it. (<strong>CAVEAT: This installer requires an active internet connection.)</strong>
       </p>
 	    <p>Please contact the workshop organizer listed above if you experience difficulties installing the 'nano' editor.</p>
-	    <p>
-If you prefer to use other editors (such as 'Notepad++' or 'Sublime Text') add their installation directories to your system path to ensure that they run correctly in Git Bash. <strong>If you are not sure how to do this, please install and use 'nano' for the duration of the workshop.</strong>
-      </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-macosx">macOS</h4>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-        for an example on how to open nano.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        During the workshop we will be using the basic editor nano. nano should be pre-installed; see the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a> for an example on how to open nano.        
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
-        nano is a basic editor and the default that instructors use in the workshop.
-        It should be pre-installed.
-      </p>
-      <p>
-        Others editors that you can use are
-        <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
-        <a href="http://www.sublimetext.com/">Sublime Text</a>.
+        During the workshop we will be using the basic editor nano. nano should be pre-installed
       </p>
     </div>
   </div>
