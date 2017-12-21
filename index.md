@@ -446,10 +446,10 @@ If even this does not help, please get in touch (using contact details above) an
 </p>
 
 <div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
-  <h3>The Bash Shell (a.k.a. Command Line/Shell/Unix/Linux/etc.)</h3>
+  <h3>The Bash Shell (a.k.a. Command Line/Shell/Unix)</h3>
 
   <p>
-    Bash is a commonly-used shell that gives you the power to quickly do simple tasks on your computer. Bash stands for 'Bournce Again Shell'; if you are interested in the history of the term and the underlying technological development, please search the Web for 'Bash Shell'.
+    Bash is a commonly-used shell (Unix command language) that gives you the power to quickly do simple tasks on your computer. Bash stands for 'Bournce Again Shell'; if you are interested in the history of the term and the underlying technological development, please search the Web for 'Bash Shell'.
   </p>
 
   <div class="row">
