@@ -607,21 +607,18 @@ Writing code is much easier with respectively optimized text editors that includ
 	</a>
         Double-click the installer file to run it. (<strong>CAVEAT: This installer requires an active internet connection.)</strong>
       </p>
-	    <p>Please contact the workshop organizer listed above if you experience difficulties installing the 'nano' editor.</p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-macosx">macOS</h4>
       <p>
         During the workshop we will be using the basic editor nano. nano should be pre-installed; see the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a> for an example on how to open nano.        
       </p>
-	<p>Please contact the workshop organizer listed above if you experience difficulties installing the 'nano' editor.</p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
         During the workshop we will be using the basic editor nano. nano should be pre-installed
       </p>
-<p>Please contact the workshop organizer listed above if you experience difficulties installing the 'nano' editor.</p>
 </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
