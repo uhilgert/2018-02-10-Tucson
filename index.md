@@ -332,7 +332,7 @@ SYLLABUS
 	  <u>Resources:</u>
 	  <ul>
 		  <li><a href="{{site.swc_pages}}/shell-novice">Shell Lessons</a></li>
-		  <li><a href="{{site.swc_pages}}/shell-novice/reference/">Shell Quick Reference</a></li>
+		  <li><a href="{{site.swc_pages}}/shell-novice/reference.html">Shell Quick Reference</a></li>
 		  <li><a href="http://explainshell.com/" target="_blank"><em>Explain Shell</em> (Parses shell commands and shows docs about the command)</a></li>
 		  <li><a href="http://www.shellcheck.net/" target="_blank"><em>ShellCheck</em> (Identifies bugs in shell scripts)</a></li>
 		  <li><a href="http://man.he.net/" target="_blank"><em>Linux Man Pages Online</em> (Same content as command line man/help pages)</a></li>
