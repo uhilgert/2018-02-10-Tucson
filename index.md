@@ -668,15 +668,15 @@ Writing code is much easier with respectively optimized text editors that includ
       <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> with your web browser.</li>
-        <li>Download the Python 3 installer for OS X.</li>
-        <li>Install Python 3 using all of the defaults for installation.</li>
+        <li>Download the Python 3.6 (or later) installer for OS X.</li>
+        <li>Install Python 3.6 (or later) using all of the defaults for installation.</li>
       </ol>
     </div>
     <div class="col-md-4">
       <h4 id="python-linux">Linux</h4>
       <ol>
         <li>Open <a href="https://www.anaconda.com/download/#linux">https://www.anaconda.com/download/#linux</a> with your web browser.</li>
-        <li>Download the Python 3 installer for Linux.<br>
+        <li>Download the Python 3.6 (or later) installer for Linux.<br>
           (The installation requires using the shell. If you aren't
            comfortable doing the installation yourself
            stop here and request help at the workshop.)
