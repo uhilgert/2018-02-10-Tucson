@@ -315,11 +315,11 @@ SYLLABUS
 
 <hr/>
 
-<h2 id="syllabus">Syllabus/Learning Objectives</h2>
+<h2 id="syllabus">Syllabus & Learning Objectives</h2>
 
 <div class="row">
   <div class="col-md-6">
-	  <h3 id="syllabus-shell">Take control with the Bash Shell/Command Line/Shell/Unix</h3>
+	  <h3 id="syllabus-shell">Take control with the Bash Shell (Command Line/Shell/Unix)</h3>
     <ul>
 	    <li>Work <em>in</em> vs. work <em>below</em> the GUI</li>
 	    <li>Navigate the shell</li>
@@ -340,7 +340,7 @@ SYLLABUS
   </div>
 
   <div class="col-md-6">
-	  <h3 id="syllabus-git">Manage and share programs/data with git/GitHub</h3>
+	  <h3 id="syllabus-git">Collaborate with git/GitHub</h3>
     <ul>
 	    <li>Access a repository and pull files</li>
 	    <li>Create a repository</li>
